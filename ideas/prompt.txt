@@ -1,0 +1,84 @@
+Change the nav menu in the following ways and implement the changes in steps to make sure the elements don't break: 
+
+Menu Item: "Services" : {
+    Article Section: "Tax Preparation": {
+        Article Item: "Business", 
+        Article Item: "Individual", 
+        Article Item: "Trust", 
+        Article Item: "Estate", 
+        Article Item: "Not-For-Profit", 
+        Article Item: "Representation"
+        }, 
+    Article Section: "Accounting": {
+        Article Item: "Recurring Services", 
+        Article Item: "GAAP Compliance Review", 
+        Article Item: "Audit Support", 
+        Article Item: "KPI Tracking", 
+        Article Item: "Clean-ups"
+        }, 
+    Article Section: "Engineering": {
+        Article Item: "Custom code", 
+        Article Item: "Software Implementations", 
+        Article Item: "System design", 
+        Article Item: "Retrofits", 
+        Article Item: "Data Pipelines", 
+        Article Item: "Workflow design", 
+        Article Item: "API implementations", 
+        Article Item: "Cloud Compute"
+        },
+    Article Section: "Hosting": {
+        "All-in-One Solutions", 
+        "Desktop virtualizations", 
+        "On-Demand Compute", 
+        "Data Backup and Failover", 
+        "Domains, File Servers", 
+        "Containerization", 
+        "Databases", 
+        "Web Hosting", 
+        "Connected Web Apps", 
+        "Dev Environments"
+        },
+    Article Section: "Training & Compliance": {
+        Article Item: "Liability Review", 
+        Article Item: "On-Site Mentoring", 
+        Article Item: "ERP Training & Implementations", 
+        Article Item: "Audit Preparation", 
+        Article Item: "SEC/FTC Compliance", 
+        Article Item: "Contract Review", 
+        Article Item: "Business Development", 
+        Article Item: "SOP Design"
+        }
+    } 
+Menu Item: "Industries" : {
+
+    Article Section: "Sole Proprietors" : {
+        Article Item: "",
+        Article Item: "",
+        Article Item: ""
+    }
+    Article Section: "Mom & Pop Shops" : {
+        Article Item: "",
+        Article Item: "",
+        Article Item: ""
+    }
+    Article Section: "Small Businesses" : {
+        Article Item: "",
+        Article Item: "",
+        Article Item: "",
+        Article Item: ""
+    }
+    Article Section: "Large Businesses" : {
+        Article Item: "",
+        Article Item: "",
+        Article Item: "",
+        Article Item: ""
+    }
+        Article Section: "Enterprise" : {
+        Article Item: "",
+        Article Item: "",
+        Article Item: "",
+        Article Item: ""
+    }
+    },
+Menu Item: "Technology" : {},
+Menu Item: "New Clients" : {}

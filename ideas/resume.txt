@@ -1,0 +1,272 @@
+NICHOLAS BLUME
+ Fulton, IL 61252
+info@blumetax.com
+ 801.857.7536
+ Professional Summary
+ Tax Strategies, Audit, Accounting Operations, Design & Management, Technology Implementation
+ Resourceful, reliable and education-first leader leveraging strengths in accounting, tax planning, training,
+ right-sizing, project management and information technologies to direct a variety of essential business
+ functions. Integrity-first community member with an exceptional work ethic and unyielding honesty;
+ committed to maintaining coherence with leadership and staff. Consistent leader with 10+ years of
+ industry accounting experience focused on maintaining and providing maximum value to shareholders
+ and employees. Excellent written and oral communication skills; accomplished accountant, coder, staff
+ trainer and professional mentor. Core competencies include:
+ • Staff & Resource Management
+ • Risk Management & Disaster Planning
+ • Not-for-profit Audit and Assurance
+ • GAAP Accounting
+ • Quality Assurance Oversight
+ • Business Continuity Planning
+ • Budget Development & Administration
+ • Training Program Development
+ • Information Technology Infrastructure
+ • Process Redesign & Change Management
+ Work Experience
+ Accounting Manager
+ TIMMER AND ASSOCIATES, PC-Davenport, IA
+ December 2024 to Present
+ Served as accounting manager and managed a team of accounting staff. Worked closely with firm
+ partners to resolve complex and time sensitive accounting problems presented across clientele.
+ Developed various workflows to streamline processes requiring significant manual entry and time. Led
+ audits of public and private organizations, reporting to firm partners and maintained and encouraged
+ collaboration with audit staff. Managed staff accountants and provided guidance on business tax returns
+ and accounting in accordance with GAAP and Internal Revenue Code. Prepared complex business tax
+ returns across all entity types for key business partners and maintained deadlines. Implemented low
+cost solutions with available technology in lieu of off-the-shelf products. 
+Managed and performed audits for not-for-profit organizations, performed procedures per ASPCA and GAAS standards, performed all material testing for balance sheet and income statement accounts
+prepared financial statements in accordance with GAAS guidelines, 
+created pipelines for automation of support and testing
+Tax returns and all various schedules for the following entities:
+C-Corps, S-Corps, Partnerships, Sole Proprietors, Contractors, Not-For-Profits (501c3), Trusts, Estates, Schedule E Rental Income, Schedule C, Schedule F, Schedule J
+
+Selected accomplishments:
+ • Developed a workbook capable of filing all client required 1099s for free through the IRS with higher
+ efficiency than bespoke software. Additionally developed 1095-C reporting system with similar methods
+ for clients statutorily required to file.
+ • Maintained client accounting and year processes, informed clients and partners of challenges and
+ delivered solutions and industry-best recommendations to support business practices and operations.
+ • Oversaw and implemented processes for payroll entry across 15 client locations, reducing time-to
+complete from hours to minutes.
+ • Recommended and implemented new, minimally-invasive procedures to staff and clients to improve
+ efficiency in year-end, monthly and intra-entity accounting tasks without inducing cost burden
+Senior Accountant
+ PRIME ACCOUNTING AND TAX-(Remote) Kansas
+ January 2024 to December 2024
+ Managed major client accounting, including inventory and cost accounting. Recommended to firm
+ best practices and developed in-house solutions for tax planning otherwise requiring significant capital
+ investment. Returned to clients specifically requested workflows for ensuring correct payroll calculations
+ per client policies. Advised clients to tax implications and business impact of key decisions and actions.
+ Selected accomplishment:
+ ● Created a process by which all payroll and hours payable were easily managed in a single solution
+ that otherwise required several days of manual analysis. Implemented a system in which said process
+ was achievable in an hour and had absolute accuracy.
+ Staff Accountant
+ PROPERTY MANAGEMENT INCORPORATED-Lehi, UT
+ September 2022 to November 2023
+ Maintained client communication across franchisor book of business and was primary contact of
+ franchisees in regard to business and franchise operations. Hosted a bi-weekly webcast for new business
+ owners to introduce and educate on
+ QuickBooks operations and franchisee expectations. Developed in-house programs run in containerized
+ cost-effective solutions to resolve onerous royalty calculations, KPI tracking and franchisor health.
+ Streamlined data collection and ratification for use in Domo and other data visualization tools to deliver
+ key data points to leadership. Selected accomplishment:
+ ● Developed lightweight Python program whereby franchisee QuickBooks data could be used to calculate
+ royalties and generate invoices across all 400+ businesses, reducing time to invoice for said royalties
+ from two weeks of manual calculations to 15 minutes. Implemented cloud-based compute and data
+ storage to facilitate such operations at pennies on the minute, taking advantage of LXC and Azure cloud
+ compute technologies.
+ Controller
+ AWARDCO, INC.-Lindon, UT
+ April 2018 to August 2022
+ Designed and implemented accounting and financial operations. Oversaw and maintained accounting
+ processes across all sections of business, including fitting already-used development and engineering
+ systems to fit accounting needs.
+ Administered commission and payroll payments for over 500 employees in addition to select benefit
+ administration of health and retirement plans. Created SOPs for accounting to be delivered to statutory
+ auditors that eliminated lengthy interviews for audit. Onboarded new hires when the company completed
+ Series A round of funding and successfully trained and installed hires into positions with no gap in service
+ level. Regularly audited and supported client accounts across business, provided education and was
+ primary billings contact for largest clients. Assisted data team in queries and guided development and
+ SQL data teams on best practices for achieving accounting accuracy and reproducibility.
+ Assisted strategies for expansion to foreign markets including safe-haven and tax implicated decision
+making for partners. Selected accomplishment:
+ ● Developed and maintained billing procedures for the company's largest client, supporting over 2+
+ million customers (employees) in accordance with strict client SLAs regarding performance and payability
+ of billings.
+ Implemented cost-effective solution for SAP global infrastructure and guided development team in
+ programmatizing solution. Client requirements were multinational and required bimonthly reconciliation
+ and certification to the client so as to ensure payment.
+ A/R and A/P Manager
+ MOXTEK, INC.-Orem, UT
+ June 2021 to July 2022
+ Managed and maintained A/P and A/R for large manufacturing company. Assisted in statutory audit
+ required by parent company to ensure accurate record keeping and ISO compliance. Selected
+ accomplishment:
+● Discovered and reported sales tax overexposure of $250,000 for manufacturing buildings exempt in
+ Utah State
+ Code, returning those dollars to the company.
+ Education
+ Accounting (Associates)
+ Eastern Oregon University-La Grande, OR
+ September 2012 to November 2014
+ Accounting Licenses
+ Enrolled Agent
+ Expires: March 2028
+ State: IL
+
+Accounting Operations Skills:
+
+Cash, Treasury, Dual Controls Implementation
+Receivables, dunning and financing
+Inventory, cost accounting
+Fixed Assets
+Like-kind and sales of business assets
+Prepaid expenses
+Intangibles Assets
+Brokerage and trust accounting
+Capital asset realized gain (loss)
+Capital asset unrealized gain (loss)
+Security, ETF/Mutual fund accounting and reporting
+Loans disbursement, interest and amortizations
+Accounts payable, cash flow projections and budgeting
+Mortgages and notes payable, private loan interest amortizations
+Credit management and reconciliation
+Partner, shareholder and commercial loan management, debt financing breakevens, alternative asset market liability leveraging
+Deferred revenue, revenue recognition, ASC 606, software as a service, SAAS
+Retainer, trust, rental real estate liablity, restricted funds, association HOA, 1120-H
+Equity and cap table management, 409A evaluations, employee RSU programs, S-Corp and C-Corp shareholder management
+Accumulated earnings and profits, current earnings, distributions and compensation accounting
+
+Revenue and expense budgeting
+COGS accounting, per-unit service and product reporting and KPI tracking
+Payroll and payroll tax administration and adjustments
+Benefits expense and liability administration and adjustments
+Insurance and liability assessment and accounting, rider adjustments, flat line
+Lease accounting and leaseholder improvements
+Loan accounting, bad debt accounting
+Depreciation and amortizations
+Owner, partner and shareholder compensation managment
+Board of Directors treasury support and reporting functions, trustee member
+Reporting directly to board of directors, partners, or other shareholders, creating custom dashboards and investment tracking tools, visualizations and goal boards
+
+Tax Operations Skills:
+
+Capital Gain or (Loss) characterizations, tracking and filings (Sch. D)
+Expense schedule and prepaids support 
+Deferred expenses
+Receivables characterization and COGS (1125-A)
+Asset planning, characterizations
+Compliance and statutory reporting, SEC filings, FTC filings
+Emergency tax filings and cleanups, abatements, representation and resolution
+Sales and use state tax filings
+Property tax filings (city/county/state)
+Payroll tax filings (940/941, FICA/FUTA)
+Income tax filings (1120, 1120-S, 1120-H, 1065, 990, 706, 1041, 1040, Schedule C, Schedule E)
+
+ Skills
+ • Financial auditing
+ • Database management
+ • Microsoft Excel (10+ years)
+ • Tax experience (7 years)
+ • PowerQuery
+ • Python (7 years)
+ • Bookkeeping
+ • QBOP (7 years)
+ • IFRS (5 years)
+ • SAP ERP (5 years)
+ • Remote access software
+ • Technical accounting
+ • Tax accounting
+ • Salesforce (5 years)
+ • data warehousing
+ • Scripting
+ • B2B (7 years)
+ • Jira (7 years)
+ • Microsoft SQL Server (7 years)
+ • Equity Plan Administration (7 years)
+ • Azure (7 years)
+ • Accounts payable (7 years)
+ • Cost management (7 years)
+• Information management
+ • NetSuite (4 years)
+ • Customer service
+ • systems retrofit
+ • Excel
+ • Financial analysis
+ • Atlassian (Jira)
+ • Statutory Accounting Principles
+ • GST (7 years)
+ • Power BI (7 years)
+ • High availability
+ • Benefits administration (7 years)
+ • Manufacturing
+ • PowerBI
+ • Cost accounting (7 years)
+ • implementation
+ • C++
+ • Corporate finance
+ • Supply chain
+ • RESTful API (5 years)
+ • Accounts receivable (7 years)
+ • Labor cost analysis (7 years)
+ • Purchasing (7 years)
+ • Cloud computing (7 years)
+ • Internal audits (7 years)
+ • Research
+ • Azure Data Lake (7 years)
+ • Xero
+ • Communication skills
+ • Public accounting
+ • SaaS
+ • Product development
+ • PowerShell
+ • Compliance management (7 years)
+ • Fixed Asset Management (7 years)
+ • Organizational skills
+ • Phone etiquette
+ • VAT (7 years)
+ • Account reconciliation (7 years)
+ • Bank reconciliation (7 years)
+• Financial report interpretation
+ • REST API
+ • Continuous improvement
+ • QuickBooks Online and Desktop (Enterprise, Accountant, etc.)
+ • Debits & credits
+ • ETL design
+ • Accounting
+ • Power Pivot
+ • Operations management
+ • Statistics
+ • VBA (7 years)
+ • GAAP (7 years)
+ • Data management
+ • QuickBooks Online, Desktop, Enterprise (7 years)
+ • General ledger accounting (7 years)
+ • Journal entries (7 years)
+ • Software troubleshooting
+ • SQL (7 years)
+ • Microsoft Access (7 years)
+ • Google Suite (7 years)
+ • Relationship management
+ • Root cause analysis
+ • Accounting software (10+ years)
+ • Microsoft Office (7 years)
+ • Sage
+ • ASC 606 (5 years)
+ • IT
+ • Payroll management (7 years)
+ • Payroll (7 years)
+ • Account analysis
+ • Oracle SAP
+ • Windows administration and endpoint mitigation
+ • ERP systems
+ • Financial modeling
+ • SQL databases
+ • SharePoint
+ • Jquery
+ • Project management
+ • Javascript
+ • Double entry bookkeeping
+• Construction
+ • QuickBooks
+ • Financial concepts

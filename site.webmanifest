@@ -1,0 +1,29 @@
+{
+  "name": "Blume Tax & Consulting",
+  "short_name": "Blume Tax",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0c4a6e",
+  "description": "Accounting, tax preparation and planning, IRS representation, and fintech solutions.",
+  "icons": [
+    {
+      "src": "/ideas/logo40px.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/ideas/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/ideas/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

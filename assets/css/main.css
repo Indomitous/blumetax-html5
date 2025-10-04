@@ -1112,6 +1112,7 @@ input, select, textarea {
 		-ms-transform: scale(1.0);
 		transform: scale(1.0);
 		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -1261,6 +1262,31 @@ input, select, textarea {
 		max-width: 100%;
 		text-align: center;
 	}
+/* Sticky top header: keep branding/nav visible; neutralize article-visibility fade */
+body.is-article-visible #header {
+  transform: none !important;
+  filter: none !important;
+  opacity: 1 !important;
+}
+
+#header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  /* Subtle backdrop for readability when content scrolls under */
+  backdrop-filter: blur(2px);
+}
+
+/* Layout: have #main start below header and stack content from the top */
+#main {
+  justify-content: flex-start !important;
+  align-items: center; /* keep articles centered horizontally */
+}
+
+/* Ensure there is spacing below the sticky header on small screens if needed */
+@media (max-width: 736px) {
+  #main { padding-top: 0.5rem; }
+}
 
 		#header > * {
 			-moz-transition: opacity 0.325s ease-in-out;

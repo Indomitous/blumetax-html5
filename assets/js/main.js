@@ -93,8 +93,7 @@
 								$main_articles.removeClass('active');
 
 							// Hide header, footer.
-								$header.hide();
-								$footer.hide();
+											// (Sticky header/footer) no-op: keep header/footer visible
 
 							// Show main, article.
 								$main.show();
@@ -166,9 +165,7 @@
 						// Show article.
 							setTimeout(function() {
 
-								// Hide header, footer.
-									$header.hide();
-									$footer.hide();
+								// (Sticky header/footer) no-op: keep header/footer visible
 
 								// Show main, article.
 									$main.show();
@@ -225,10 +222,6 @@
 								$article.hide();
 								$main.hide();
 
-							// Show footer, header.
-								$footer.show();
-								$header.show();
-
 							// Unmark as visible.
 								$body.removeClass('is-article-visible');
 
@@ -256,13 +249,9 @@
 				// Hide article.
 					setTimeout(function() {
 
-						// Hide article, main.
-							$article.hide();
-							$main.hide();
-
-						// Show footer, header.
-							$footer.show();
-							$header.show();
+							// Hide article, main.
+								$article.hide();
+								$main.hide();
 
 						// Unmark as visible.
 							setTimeout(function() {
@@ -307,6 +296,10 @@
 
 		// Events.
 			$body.on('click', function(event) {
+
+				// Ignore clicks within header/footer to allow sticky nav interactions
+				if ($(event.target).closest('#header, #footer').length)
+					return;
 
 				// Article visible? Hide.
 					if ($body.hasClass('is-article-visible'))

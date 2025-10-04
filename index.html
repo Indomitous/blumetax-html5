@@ -17,10 +17,10 @@
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="https://www.blumetax.com/" />
 	<!-- Icons / Manifest -->
-	<link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png" />
-	<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/android-chrome-192x192.png" />
-	<link rel="icon" type="image/png" sizes="512x512" href="/assets/icons/android-chrome-512x512.png" />
-	<link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/android-chrome-192x192.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png" />
+	<link rel="icon" type="image/png" sizes="192x192" href="/images/favicon-192.png" />
+	<link rel="icon" type="image/png" sizes="512x512" href="/images/favicon-512.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon-192.png" />
 	<link rel="manifest" href="/site.webmanifest" />
 	<link rel="preload" as="image" href="/images/bg.jpg" />
 	<link rel="preload" as="image" href="/images/overlay.png" />
@@ -36,7 +36,7 @@
 						<header id="header">
 							<div class="header-inner">
 								<a class="brand" href="https://www.blumetax.com" aria-label="Blume Tax &amp; Consulting home">
-									<img src="./images/initial.png" alt="Blume Tax &amp; Consulting" decoding="async" fetchpriority="high" />
+									<img src="/images/initial.png" alt="Blume Tax &amp; Consulting" decoding="async" fetchpriority="high" />
 								</a>
 							<button id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav" class="nav-toggle">
 								<span class="nav-toggle-bar" aria-hidden="true"></span>
@@ -58,6 +58,9 @@
 
 						<!-- Intro -->
 							<article id="intro">
+								<p class="align-center" style="margin: 0 0 1rem 0;">
+									<img src="/images/favicon-512.png" alt="Blume Tax logo" style="height: 96px; width: auto; display: inline-block;" />
+								</p>
 								<h2 class="major">Intro</h2>
 								<p><strong>Blume Tax &amp; Consulting</strong> is an EA‑led tax and accounting firm helping individuals and small businesses stay compliant, make confident decisions, and operate efficiently.</p>
 								<p>We provide end‑to‑end tax preparation and planning, reliable GAAP‑aligned accounting operations, and experienced IRS representation. For clients who want to modernize, we pair proven finance processes with practical automation to reduce manual work and improve audit readiness.</p>
@@ -68,11 +71,16 @@
 								<article id="industries" class="article--wide" data-article="industries">
 									<h2 class="major">Industries</h2>
 									<!-- Editable intro placeholder -->
-									<div class="article-intro" contenteditable="true"></div>
+									<div class="article-intro" contenteditable="true">Tailored tax and accounting support across stages of growth — from solo founders to enterprise. We meet you where you are and scale with your needs.</div>
 
 									<section class="article-section" data-section="Sole Proprietors">
 										<h3>Sole Proprietors</h3>
 										<ul class="article-items">
+											<li class="article-item" data-item="Schedule C bookkeeping">Schedule C bookkeeping</li>
+											<li class="article-item" data-item="Quarterly estimates & safe harbors">Quarterly estimates &amp; safe harbors</li>
+											<li class="article-item" data-item="Sales/use tax basics">Sales/use tax basics</li>
+											<li class="article-item" data-item="Home office & mileage tracking">Home office &amp; mileage tracking</li>
+											<li class="article-item" data-item="Entity selection review (when to elect S‑Corp)">Entity selection review (when to elect S‑Corp)</li>
 											<li class="article-item placeholder" data-item=""></li>
 										</ul>
 									</section>
@@ -80,6 +88,11 @@
 									<section class="article-section" data-section="Mom &amp; Pop Shops">
 										<h3>Mom &amp; Pop Shops</h3>
 										<ul class="article-items">
+											<li class="article-item" data-item="Point‑of‑sale & inventory workflows">Point‑of‑sale &amp; inventory workflows</li>
+											<li class="article-item" data-item="Payroll & filings (W‑2/1099)">Payroll &amp; filings (W‑2/1099)</li>
+											<li class="article-item" data-item="State & local tax (SALT) compliance">State &amp; local tax (SALT) compliance</li>
+											<li class="article-item" data-item="Monthly closes & cash flow">Monthly closes &amp; cash flow</li>
+											<li class="article-item" data-item="Year‑end tax planning">Year‑end tax planning</li>
 											<li class="article-item placeholder" data-item=""></li>
 										</ul>
 									</section>
@@ -87,6 +100,11 @@
 									<section class="article-section" data-section="Small Businesses">
 										<h3>Small Businesses</h3>
 										<ul class="article-items">
+											<li class="article-item" data-item="GAAP‑aligned closes & reconciliations">GAAP‑aligned closes &amp; reconciliations</li>
+											<li class="article-item" data-item="KPI dashboards & budgeting">KPI dashboards &amp; budgeting</li>
+											<li class="article-item" data-item="Sales/Payroll/Income tax compliance">Sales/Payroll/Income tax compliance</li>
+											<li class="article-item" data-item="Systems & workflow automation">Systems &amp; workflow automation</li>
+											<li class="article-item" data-item="Audit readiness & documentation">Audit readiness &amp; documentation</li>
 											<li class="article-item placeholder" data-item=""></li>
 										</ul>
 									</section>
@@ -94,6 +112,11 @@
 									<section class="article-section" data-section="Large Businesses">
 										<h3>Large Businesses</h3>
 										<ul class="article-items">
+											<li class="article-item" data-item="Multi‑entity consolidations">Multi‑entity consolidations</li>
+											<li class="article-item" data-item="Internal controls & SOPs">Internal controls &amp; SOPs</li>
+											<li class="article-item" data-item="Financial reporting & audit support">Financial reporting &amp; audit support</li>
+											<li class="article-item" data-item="Tax provision & state apportionment">Tax provision &amp; state apportionment</li>
+											<li class="article-item" data-item="Data pipelines & integrations">Data pipelines &amp; integrations</li>
 											<li class="article-item placeholder" data-item=""></li>
 										</ul>
 									</section>
@@ -101,12 +124,17 @@
 									<section class="article-section" data-section="Enterprise">
 										<h3>Enterprise</h3>
 										<ul class="article-items">
+											<li class="article-item" data-item="SOX‑aligned process design">SOX‑aligned process design</li>
+											<li class="article-item" data-item="ERP implementations & retrofits">ERP implementations &amp; retrofits</li>
+											<li class="article-item" data-item="Scalable billing & revenue ops">Scalable billing &amp; revenue ops</li>
+											<li class="article-item" data-item="Global payroll & compliance">Global payroll &amp; compliance</li>
+											<li class="article-item" data-item="Data governance & security">Data governance &amp; security</li>
 											<li class="article-item placeholder" data-item=""></li>
 										</ul>
 									</section>
 
 									<!-- Editable outro placeholder -->
-									<div class="article-outro" contenteditable="true"></div>
+									<div class="article-outro" contenteditable="true">Not sure where you fit? <a href="#contact">Reach out</a> with a quick description of your business and goals — we’ll recommend a right‑sized path.</div>
 								</article>
 
 						<!-- Services (reset) -->
@@ -186,14 +214,54 @@
 								<div class="article-outro" contenteditable="true"></div>
 							</article>
 
-							<!-- New Clients (reset) -->
+							<!-- New Clients -->
 								<article id="process" class="article--wide" data-article="new-clients">
 									<h2 class="major">New Clients</h2>
 									<!-- Editable intro placeholder -->
-									<div class="article-intro" contenteditable="true"></div>
-									<!-- Sections and items to be added later -->
+									<div class="article-intro" contenteditable="true">A straightforward onboarding process with clear timelines and expectations. We’ll match the scope to your goals and budget.</div>
+
+									<section class="article-section" data-section="Discovery">
+										<h3>Discovery</h3>
+										<ul class="article-items">
+											<li class="article-item" data-item="15–20 min intro call">15–20 min intro call</li>
+											<li class="article-item" data-item="Scope, constraints, timeline">Scope, constraints, timeline</li>
+											<li class="article-item" data-item="Rough estimate & options">Rough estimate &amp; options</li>
+											<li class="article-item placeholder" data-item=""></li>
+										</ul>
+									</section>
+
+									<section class="article-section" data-section="Engagement">
+										<h3>Engagement</h3>
+										<ul class="article-items">
+											<li class="article-item" data-item="Proposal & engagement letter">Proposal &amp; engagement letter</li>
+											<li class="article-item" data-item="Checklist of needed items">Checklist of needed items</li>
+											<li class="article-item" data-item="Secure portal setup">Secure portal setup</li>
+											<li class="article-item placeholder" data-item=""></li>
+										</ul>
+									</section>
+
+									<section class="article-section" data-section="Delivery">
+										<h3>Delivery</h3>
+										<ul class="article-items">
+											<li class="article-item" data-item="Work in progress updates">Work in progress updates</li>
+											<li class="article-item" data-item="Review meeting & Q/A">Review meeting &amp; Q/A</li>
+											<li class="article-item" data-item="Final deliverables & next steps">Final deliverables &amp; next steps</li>
+											<li class="article-item placeholder" data-item=""></li>
+										</ul>
+									</section>
+
+									<section class="article-section" data-section="Ongoing">
+										<h3>Ongoing</h3>
+										<ul class="article-items">
+											<li class="article-item" data-item="Recurring services (monthly/quarterly)">Recurring services (monthly/quarterly)</li>
+											<li class="article-item" data-item="Year‑round support & reminders">Year‑round support &amp; reminders</li>
+											<li class="article-item" data-item="Proactive planning & reviews">Proactive planning &amp; reviews</li>
+											<li class="article-item placeholder" data-item=""></li>
+										</ul>
+									</section>
+
 									<!-- Editable outro placeholder -->
-									<div class="article-outro" contenteditable="true"></div>
+									<div class="article-outro" contenteditable="true">Ready to get started? <a href="#contact">Book an intro</a> or email <a href="mailto:info@blumetax.com">info@blumetax.com</a>.</div>
 								</article>
 
 						<!-- About -->
@@ -217,7 +285,7 @@
 								<section>
 									<h3>Senior Accountant — Prime Accounting and Tax</h3>
 									<p class="meta">Jan 2024 — Dec 2024 · Remote</p>
-								<section>
+								</section>
 									<h3>Other industries we serve</h3>
 									<ul>
 										<li>Content Creators</li>
@@ -253,17 +321,69 @@
 									<p class="meta">Jun 2021 — Jul 2022</p>
 									<p>Managed A/P and A/R processes; identified $250k sales tax overexposure for exempt facilities and recovered those amounts; supported ISO compliance during statutory audit.</p>
 								</section>
-								<p><a href="/ideas/resume.pdf" target="_blank" rel="noopener">View resume (PDF)</a></p>
+								<p><a href="/assets/docs/resume.pdf" target="_blank" rel="noopener">View resume (PDF)</a></p>
 							</article>
 
-							<!-- Technology (reset) -->
+							<!-- Technology -->
 								<article id="capabilities" class="article--wide" data-article="technology">
 									<h2 class="major">Technology</h2>
 									<!-- Editable intro placeholder -->
-									<div class="article-intro" contenteditable="true"></div>
-									<!-- Sections and items to be added later -->
+									<div class="article-intro" contenteditable="true">Practical tools, not tech theater. We use familiar platforms and light automation to remove friction and reduce cost — with clear ownership and documentation.</div>
+
+									<section class="article-section" data-section="Platforms">
+										<h3>Platforms</h3>
+										<ul class="article-items">
+											<li class="article-item" data-item="QuickBooks Online & Desktop">QuickBooks Online &amp; Desktop</li>
+											<li class="article-item" data-item="NetSuite, SAP (billing & integrations)">NetSuite, SAP (billing &amp; integrations)</li>
+											<li class="article-item" data-item="Gusto, ADP, Paychex (payroll)">Gusto, ADP, Paychex (payroll)</li>
+											<li class="article-item" data-item="Avalara & state portals (SALT)">Avalara &amp; state portals (SALT)</li>
+											<li class="article-item placeholder" data-item=""></li>
+										</ul>
+									</section>
+
+									<section class="article-section" data-section="Data & Automation">
+										<h3>Data &amp; Automation</h3>
+										<ul class="article-items">
+											<li class="article-item" data-item="Power Query & Excel automations">Power Query &amp; Excel automations</li>
+											<li class="article-item" data-item="Python & SQL tooling">Python &amp; SQL tooling</li>
+											<li class="article-item" data-item="AP/AR workflow scripts">AP/AR workflow scripts</li>
+											<li class="article-item" data-item="1099 & 1095‑C generation workflows">1099 &amp; 1095‑C generation workflows</li>
+											<li class="article-item placeholder" data-item=""></li>
+										</ul>
+									</section>
+
+									<section class="article-section" data-section="Reporting & Analytics">
+										<h3>Reporting &amp; Analytics</h3>
+										<ul class="article-items">
+											<li class="article-item" data-item="KPI dashboards & budget vs actuals">KPI dashboards &amp; budget vs actuals</li>
+											<li class="article-item" data-item="Power BI/Tableau/Looker exports">Power BI/Tableau/Looker exports</li>
+											<li class="article-item" data-item="Closing packages & audit binders">Closing packages &amp; audit binders</li>
+											<li class="article-item placeholder" data-item=""></li>
+										</ul>
+									</section>
+
+									<section class="article-section" data-section="Cloud & Hosting">
+										<h3>Cloud &amp; Hosting</h3>
+										<ul class="article-items">
+											<li class="article-item" data-item="Azure, containers, on‑demand compute">Azure, containers, on‑demand compute</li>
+											<li class="article-item" data-item="Data backup & failover">Data backup &amp; failover</li>
+											<li class="article-item" data-item="Secure client portals">Secure client portals</li>
+											<li class="article-item placeholder" data-item=""></li>
+										</ul>
+									</section>
+
+									<section class="article-section" data-section="Security & Compliance">
+										<h3>Security &amp; Compliance</h3>
+										<ul class="article-items">
+											<li class="article-item" data-item="Access controls & audit trails">Access controls &amp; audit trails</li>
+											<li class="article-item" data-item="Documentation & SOPs">Documentation &amp; SOPs</li>
+											<li class="article-item" data-item="FTC/GLBA awareness for tax pros">FTC/GLBA awareness for tax pros</li>
+											<li class="article-item placeholder" data-item=""></li>
+										</ul>
+									</section>
+
 									<!-- Editable outro placeholder -->
-									<div class="article-outro" contenteditable="true"></div>
+									<div class="article-outro" contenteditable="true">Prefer a specific stack? We’ll work with the tools you already use and document changes so your team can maintain them.</div>
 								</article>
 
 						<!-- FAQ -->

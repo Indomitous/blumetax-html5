@@ -22,6 +22,8 @@
 	<link rel="icon" type="image/png" sizes="512x512" href="/assets/icons/android-chrome-512x512.png" />
 	<link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/android-chrome-192x192.png" />
 	<link rel="manifest" href="/site.webmanifest" />
+	<link rel="preload" as="image" href="/images/bg.jpg" />
+	<link rel="preload" as="image" href="/images/overlay.png" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -33,7 +35,7 @@
 				<!-- Header -->
 					<header id="header">
 						<a class="brand" href="/" aria-label="Blume Tax &amp; Consulting home">
-							<img src="/ideas/favicon-192.png" alt="Blume Tax &amp; Consulting" />
+							<img src="/ideas/favicon-192.png" alt="Blume Tax &amp; Consulting" width="192" height="192" decoding="async" fetchpriority="high" />
 						</a>
 						<button id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav" class="nav-toggle">
 							<span class="nav-toggle-bar" aria-hidden="true"></span>
@@ -44,7 +46,9 @@
 								<li><a href="#work">Services</a></li>
 								<li><a href="#about">About</a></li>
 								<li><a href="#experience">Experience</a></li>
+								<li><a href="#industries">Industries</a></li>
 								<li><a href="#capabilities">Capabilities</a></li>
+								<li><a href="#process">Engagement</a></li>
 								<li><a href="#faq">FAQ</a></li>
 								<li><a href="#contact">Contact</a></li>
 							</ul>
@@ -62,6 +66,28 @@
 								<p><a href="#work" class="button primary">Explore services</a></p>
 							</article>
 
+							<!-- Industries -->
+							<article id="industries">
+								<h2 class="major">Industries</h2>
+								<p>I’ve supported teams across several industries. Here’s where my background can help quickly:</p>
+								<section>
+									<h3>Non‑profit</h3>
+									<p>Audit and assurance under GAAS with nonprofit reporting needs. Support includes documentation, schedules, and timely financial statements.</p>
+								</section>
+								<section>
+									<h3>Manufacturing</h3>
+									<p>Inventory and cost accounting, fixed assets and depreciation, sales/use tax, and process controls—along with support for statutory and ISO audits.</p>
+								</section>
+								<section>
+									<h3>SaaS / Technology</h3>
+									<p>Revenue recognition (ASC 606), deferred revenue, high‑volume billing and reconciliation (SAP/NetSuite), and payroll/benefits administration.</p>
+								</section>
+								<section>
+									<h3>Franchises &amp; Property Management</h3>
+									<p>Franchisee support, royalties and KPI reporting, QuickBooks workflows, and automation that cuts days of manual work to under an hour.</p>
+								</section>
+							</article>
+
 						<!-- Services -->
 							<article id="work">
 								<h2 class="major">Services</h2>
@@ -75,6 +101,29 @@
 								</ul>
 								<p>I prepare and review returns across entity types; manage payroll and payroll taxes; and implement low‑cost automation to reduce manual work. I’ve led and supported audits under GAAS/ASPCA standards and can help assemble and present support efficiently.</p>
 								<p><a href="#contact" class="button">Request a consultation</a></p>
+							</article>
+
+							<!-- Engagement Process -->
+							<article id="process">
+								<h2 class="major">Engagement Process</h2>
+								<ol>
+									<li>
+										<strong>Discovery (15–30 min)</strong> — Brief call to understand needs, scope, timelines, and any prior issues (IRS notices, audits, deadlines).
+									</li>
+									<li>
+										<strong>Intake &amp; checklist</strong> — You’ll receive a tailored document checklist (W‑2/1099/K‑1, prior returns, payroll/tax accounts, books access).
+									</li>
+									<li>
+										<strong>Setup</strong> — Books review, reconcile key accounts, establish secure file sharing and communications, and set milestones.
+									</li>
+									<li>
+										<strong>Service delivery</strong> — Preparation, planning, or representation; weekly progress updates if the engagement spans multiple weeks.
+									</li>
+									<li>
+										<strong>Review &amp; next steps</strong> — Deliverables, recommendations, and an ongoing cadence (monthly/quarterly) if appropriate.
+									</li>
+								</ol>
+								<p><a href="#contact" class="button">Start with a discovery call</a></p>
 							</article>
 
 						<!-- About -->

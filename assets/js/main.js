@@ -373,6 +373,20 @@
 
 			});
 
+			// Active nav highlighting
+			(function(){
+				var $nav = $('#site-nav');
+				function setActive(hash){
+					if (!$nav.length) return;
+					var h = hash && hash !== '#' ? hash : '#intro';
+					$nav.find('a').removeAttr('aria-current').removeClass('is-active');
+					var $a = $nav.find('a[href="' + h + '"]');
+					if ($a.length) { $a.attr('aria-current','page').addClass('is-active'); }
+				}
+				$window.on('load', function(){ setActive(location.hash); });
+				$window.on('hashchange', function(){ setActive(location.hash); });
+			})();
+
 		// Scroll restoration.
 		// This prevents the page from scrolling back to the top on a hashchange.
 			if ('scrollRestoration' in history)

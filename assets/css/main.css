@@ -1297,6 +1297,8 @@ body.is-article-visible #header {
 #header nav { flex: 1 1 auto; display: flex; justify-content: flex-end; }
 #header nav ul { display: flex; align-items: center; gap: 0; }
 #header nav ul li a { height: 2.25rem; line-height: 2.25rem; min-width: 6.25rem; }
+/* Active nav */
+#header nav ul li a.is-active { background-color: rgba(255,255,255,0.1); border-radius: 4px; }
 /* Remove legacy content spacing (we no longer show the large hero in header) */
 #header .content { display: none; }
 
@@ -1355,6 +1357,7 @@ body.scrolled #header { background-color: rgba(27, 31, 34, 0.9); box-shadow: 0 4
 	#site-nav ul li { border: 0; }
 	#site-nav ul li a { display: block; padding: 0.75rem 1rem; height: auto; line-height: 1.5; min-width: 0; border-bottom: 1px solid rgba(255,255,255,0.1); }
 	body:not(.nav-open) #site-nav { display: none; }
+	#header nav ul li a.is-active { background-color: transparent; }
 }
 
 /* Unify article and page background so edges don’t look overlapped */

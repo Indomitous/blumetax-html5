@@ -16,7 +16,7 @@ Content conventions (tax/accounting + fintech)
 - SEO/meta already present (title, description, canonical, OG, theme-color). Mirror this on new pages.
 
 Branding & icons
-- Icons currently reference `ideas/logo*.png`. If updating branding, also update `<link rel="icon">` tags and `icons` in `site.webmanifest` to valid 192x192 and 512x512 PNGs.
+- Icons currently reference `images/logo*.png`. If updating branding, also update `<link rel="icon">` tags and `icons` in `site.webmanifest` to valid 192x192 and 512x512 PNGs.
 
 Styling workflow
 - Minor tweaks: `assets/css/main.css`. Larger changes: edit Sass in `assets/sass/**` (vars in `libs/_vars.scss`) and compile to `assets/css/*.css` with Dart Sass.

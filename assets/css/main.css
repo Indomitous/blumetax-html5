@@ -1292,11 +1292,8 @@ body.is-article-visible #header {
   gap: 1rem;
   margin: 0 auto;
   width: 100%;
-  max-width: 56rem; /* match .article--wide */
+	max-width: 56rem; /* fixed site width for header/nav */
 }
-
-/* If a non-wide article is active, constrain header to the default article width (40rem) */
-body.is-article-visible:not(.article-wide) #header .header-inner { max-width: 40rem; }
 
 /* Let nav push to the right within the inner container */
 #header .header-inner .brand { flex: 0 0 auto; }

@@ -1,0 +1,22 @@
+{
+  "name": "blumetax-html5",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "format": "prettier --write \"**/*.{html,css,scss,js,json,md}\"",
+    "lint:css": "stylelint \"assets/**/*.{css,scss}\"",
+    "sass": "sass assets/sass:assets/css --style=expanded",
+    "sass:watch": "sass --watch assets/sass:assets/css --style=expanded",
+    "serve": "live-server --port=5500 --open=./index.html",
+    "hint": "hint ."
+  },
+  "devDependencies": {
+    "hint": "^7.1.2",
+    "live-server": "^1.2.2",
+    "prettier": "^3.3.3",
+    "sass": "^1.77.0",
+    "stylelint": "^16.6.1",
+    "stylelint-config-standard-scss": "^13.0.0",
+    "stylelint-order": "^6.0.4"
+  }
+}

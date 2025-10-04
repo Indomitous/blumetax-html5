@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "stylelint.vscode-stylelint",
+    "webhint.vscode-webhint",
+    "EditorConfig.EditorConfig",
+    "ritwickdey.LiveServer",
+    "ms-vscode.powershell",
+    "ms-edgedevtools.vscode-edge-devtools"
+  ]
+}

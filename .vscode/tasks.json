@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Sass: Watch",
+      "type": "npm",
+      "script": "sass:watch",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Format (Prettier)",
+      "type": "npm",
+      "script": "format",
+      "group": "none"
+    },
+    {
+      "label": "Lint CSS (stylelint)",
+      "type": "npm",
+      "script": "lint:css",
+      "group": "test"
+    },
+    {
+      "label": "Site hint (webhint)",
+      "type": "npm",
+      "script": "hint",
+      "group": "test"
+    }
+  ]
+}

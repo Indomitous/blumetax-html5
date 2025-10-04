@@ -1,0 +1,4 @@
+node_modules/
+assets/css/*.css
+assets/js/*.min.js
+assets/vendor/

@@ -1,0 +1,16 @@
+{
+  "extends": ["web-recommended"],
+  "hints": {
+    "http-compression": "off",
+    "compat-api/css": "default",
+    "meta-theme-color": "default",
+    "manifest-exists": "default",
+    "manifest-file-extension": "default",
+    "manifest-is-valid": "default"
+  },
+  "browserslist": [
+    ">0.5%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

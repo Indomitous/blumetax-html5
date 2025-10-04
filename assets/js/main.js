@@ -307,6 +307,24 @@
 
 			});
 
+			// Mobile nav toggle (non-invasive to hash router)
+			(function(){
+				var $toggle = $('#nav-toggle');
+				var $nav = $('#site-nav');
+				if ($toggle.length && $nav.length) {
+					$toggle.on('click', function(e){
+						e.preventDefault(); e.stopPropagation();
+						var expanded = $toggle.attr('aria-expanded') === 'true';
+						$toggle.attr('aria-expanded', (!expanded).toString());
+						$('body').toggleClass('nav-open', !expanded);
+					});
+					$nav.find('a[href^="#"]').on('click', function(){
+						$toggle.attr('aria-expanded','false');
+						$('body').removeClass('nav-open');
+					});
+				}
+			})();
+
 			$window.on('keyup', function(event) {
 
 				switch (event.keyCode) {

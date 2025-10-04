@@ -1270,11 +1270,19 @@ body.is-article-visible #header {
 }
 
 #header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  /* Subtle backdrop for readability when content scrolls under */
-  backdrop-filter: blur(2px);
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+	/* Top bar layout: horizontal */
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+	padding: 0.5rem 1rem;
+	/* Subtle backdrop for readability when content scrolls under */
+	backdrop-filter: blur(2px);
+	background-color: rgba(27, 31, 34, 0.65);
+	box-shadow: 0 2px 8px rgba(0,0,0,0.25);
 }
 
 /* Layout: have #main start below header and stack content from the top */
@@ -1283,9 +1291,35 @@ body.is-article-visible #header {
   align-items: center; /* keep articles centered horizontally */
 }
 
+#header .logo { width: 2.5rem; height: 2.5rem; line-height: 2.5rem; flex: 0 0 auto; }
+#header .logo .icon:before { font-size: 1.1rem; }
+#header nav { flex: 1 1 auto; display: flex; justify-content: flex-end; }
+#header nav ul { display: flex; align-items: center; gap: 0; }
+#header nav ul li a { height: 2.25rem; line-height: 2.25rem; min-width: 6.25rem; }
+/* Remove legacy content spacing (we no longer show the large hero in header) */
+#header .content { display: none; }
+
+/* Avoid sticky header overlap on hash navigation */
+#main article { scroll-margin-top: 5rem; }
+
 /* Ensure there is spacing below the sticky header on small screens if needed */
 @media (max-width: 736px) {
   #main { padding-top: 0.5rem; }
+  #header { padding: 0.5rem; }
+  #header nav ul li a { min-width: 0; padding: 0 0.75rem; }
+}
+
+/* On-scroll solid background for header (optional polish) */
+body.scrolled #header { background-color: rgba(27, 31, 34, 0.9); box-shadow: 0 4px 12px rgba(0,0,0,0.35); }
+
+/* Horizontal top-bar: remove vertical separators and top margins */
+#header > * { margin-top: 0 !important; }
+#header > *:before { display: none !important; }
+
+/* Keep nav horizontal on very small screens (override theme’s column stack) */
+@media (max-width: 480px) {
+	#header nav ul { flex-direction: row !important; }
+	#header nav ul li { border-top: 0 !important; }
 }
 
 		#header > * {

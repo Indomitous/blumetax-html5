@@ -35,13 +35,6 @@
 						<div class="logo">
 							<span class="icon solid fa-calculator" aria-hidden="true"></span>
 						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Blume Tax & Consulting</h1>
-								<p>Nicholas Blume, EA — Accounting, tax prep & planning, IRS representation, and fintech solutions.<br />
-								Serving individuals, small businesses, and non-profits.</p>
-							</div>
-						</div>
 						<nav>
 							<ul>
 								<li><a href="#intro">Intro</a></li>
@@ -450,6 +443,16 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				(function(){
 					var y = document.getElementById('copyright-year');
 					if (y) y.textContent = new Date().getFullYear();
+				})();
+				// Toggle solid header background when scrolled
+				(function(){
+					var last = 0;
+					window.addEventListener('scroll', function(){
+						var s = window.pageYOffset || document.documentElement.scrollTop || 0;
+						if (s > 10 && !document.body.classList.contains('scrolled')) document.body.classList.add('scrolled');
+						else if (s <= 10 && document.body.classList.contains('scrolled')) document.body.classList.remove('scrolled');
+						last = s;
+					});
 				})();
 			</script>
 

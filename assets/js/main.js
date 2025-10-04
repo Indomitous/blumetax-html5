@@ -325,6 +325,57 @@
 				}
 			})();
 
+			// Accessible dropdowns: hover/focus on desktop, accordion on mobile
+			(function(){
+				var $menu = $('#site-nav > ul.menu');
+				if (!$menu.length) return;
+
+				// Desktop hover/focus
+				$menu.find('> li.has-sub').each(function(){
+					var $li = $(this);
+					var $a = $li.children('a');
+					var $submenu = $li.children('.submenu');
+					if (!$submenu.length) return;
+					// Ensure ARIA hookup
+					var submenuId = $submenu.attr('id') || ('submenu-' + Math.random().toString(36).slice(2));
+					$submenu.attr('id', submenuId);
+					$a.attr('aria-controls', submenuId);
+
+					// Open on mouseenter/focusin (desktop)
+					$li.on('mouseenter', function(){ if (window.matchMedia('(min-width: 737px)').matches) { $li.addClass('open'); $a.attr('aria-expanded','true'); } });
+					$li.on('mouseleave', function(){ if (window.matchMedia('(min-width: 737px)').matches) { $li.removeClass('open'); $a.attr('aria-expanded','false'); } });
+					$li.on('focusin', function(){ if (window.matchMedia('(min-width: 737px)').matches) { $li.addClass('open'); $a.attr('aria-expanded','true'); } });
+					$li.on('focusout', function(e){ if (window.matchMedia('(min-width: 737px)').matches) { if (!$li[0].contains(e.relatedTarget)) { $li.removeClass('open'); $a.attr('aria-expanded','false'); } } });
+
+					// Mobile: toggle on click
+					$a.on('click', function(e){
+						if (!window.matchMedia('(max-width: 736px)').matches) return; // let hash nav occur on desktop
+						// prevent hash navigation for parent openers on mobile
+						e.preventDefault(); e.stopPropagation();
+						var isOpen = $li.hasClass('open');
+						$li.toggleClass('open', !isOpen);
+						$a.attr('aria-expanded', (!isOpen).toString());
+					});
+				});
+
+				// Close any open dropdowns when clicking outside
+				$(document).on('click', function(e){
+					var $target = $(e.target);
+					if ($target.closest('#site-nav').length === 0) {
+						$menu.find('> li.has-sub').removeClass('open').children('a[aria-expanded]')
+							.attr('aria-expanded','false');
+					}
+				});
+
+				// Close on Escape
+				$(document).on('keydown', function(e){
+					if (e.key === 'Escape') {
+						$menu.find('> li.has-sub').removeClass('open').children('a[aria-expanded]')
+							.attr('aria-expanded','false');
+					}
+				});
+			})();
+
 			$window.on('keyup', function(event) {
 
 				switch (event.keyCode) {
@@ -416,11 +467,14 @@
 				$main.hide();
 				$main_articles.hide();
 
-			// Initial article.
-				if (location.hash != ''
-				&&	location.hash != '#')
-					$window.on('load', function() {
+
+			// Initial article: show target if present, otherwise show Intro by default
+				$window.on('load', function() {
+					if (location.hash && location.hash !== '#') {
 						$main._show(location.hash.substr(1), true);
-					});
+					} else {
+						$main._show('intro', true);
+					}
+				});
 
 })(jQuery);

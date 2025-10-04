@@ -24,6 +24,15 @@ Styling workflow
 JS behavior to preserve
 - Keep `breakpoints.min.js`, `browser.min.js`, and preload removal in `main.js`. External links are unaffected by the hash router; on-page sections must live in `#main`.
 
+Article schema (sections/items)
+- Articles can use a standardized structure for programmatic updates:
+	- Wrapper: `<article id="..." class="article--wide" data-article="services|industries|technology|new-clients">`
+	- Editable placeholders: `<div class="article-intro" contenteditable="true">` and `<div class="article-outro" contenteditable="true">`
+	- Section: `<section class="article-section" data-section="Section Name">` with `<h3>Section Name</h3>` and a list of items
+	- Items list: `<ul class="article-items">` containing `<li class="article-item" data-item="Item Name">Item Name</li>`
+	- Placeholder items: `<li class="article-item placeholder" data-item=""></li>` — keep at least one for future inserts
+- The `article--wide` class increases the max width for dense listings.
+
 Local preview
 - Open `index.html` directly or use a simple static server (e.g., Live Server). No build step required.
 

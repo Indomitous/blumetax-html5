@@ -139,6 +139,9 @@
 
 										$article.addClass('active');
 
+										// Reflect active article width on body for header sizing
+										$body.toggleClass('article-wide', $article.hasClass('article--wide'));
+
 										// Window stuff.
 											$window
 												.scrollTop(0)
@@ -175,6 +178,9 @@
 									setTimeout(function() {
 
 										$article.addClass('active');
+
+										// Reflect active article width on body for header sizing
+										$body.toggleClass('article-wide', $article.hasClass('article--wide'));
 
 										// Window stuff.
 											$window
@@ -245,6 +251,9 @@
 
 				// Deactivate article.
 					$article.removeClass('active');
+
+					// Reset width hint on body when hiding articles
+					$body.removeClass('article-wide');
 
 				// Hide article.
 					setTimeout(function() {

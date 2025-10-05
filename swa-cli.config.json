@@ -1,0 +1,13 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "blumetax": {
+      "appLocation": "src",
+      "outputLocation": "src",
+      "appBuildCommand": "",
+      "apiBuildCommand": "",
+      "run": "echo 'No build required'",
+      "appDevserverUrl": "http://localhost:4280"
+    }
+  }
+}

@@ -1,15 +1,13 @@
-name: Azure Static Web Apps CI/CD
+name: Azure Static Web Apps CI/CD (SWA Branch)
 
 on:
   push:
     branches:
       - swa
-      - main
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
       - swa
-      - main
 
 jobs:
   build_and_deploy_job:
@@ -29,10 +27,13 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
+          ###### Repository/Build Configurations ######
+          # SWA branch uses new src/ directory structure
           app_location: "/src"
           api_location: ""
           output_location: ""
           skip_app_build: true
+          ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'

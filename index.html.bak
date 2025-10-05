@@ -224,9 +224,7 @@
 								<article id="process" class="article--wide" data-article="new-clients">
 									<h2 class="major">New Clients</h2>
 									<!-- Editable intro placeholder -->
-									<div class="article-intro" contenteditable="true">A straightforward, transparent onboarding process designed to minimize back-and-forth and set clear expectations. We will discuss your goals, match services to your budget, and deliver on time with regular communication throughout.</div>
-
-									<div class="article-sections-wrapper">
+									<div class="article-intro" contenteditable="true">A straightforward onboarding process with clear timelines and expectations. We’ll match the scope to your goals and budget.</div>
 
 									<section class="article-section" data-section="Discovery">
 										<h3>Discovery</h3>
@@ -267,7 +265,6 @@
 											<li class="article-item placeholder" data-item=""></li>
 										</ul>
 									</section>
-								</div>
 
 									<!-- Editable outro placeholder -->
 									<div class="article-outro" contenteditable="true">Ready to get started? <a href="#contact">Book an intro</a> or email <a href="mailto:info@blumetax.com">info@blumetax.com</a>.</div>
